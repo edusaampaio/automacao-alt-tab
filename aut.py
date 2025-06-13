@@ -2,11 +2,11 @@ import pyautogui
 import keyboard
 import time
 
-print('Inicando automação... pressione ESC para Parar')
+print('Inicando automação... pressione f para Parar')
 
 try:
     while True: 
-        if keyboard.is_pressed('space'):
+        if keyboard.is_pressed('f'):
             print('automação finalizada.')
             break
 
@@ -19,4 +19,4 @@ try:
         time.sleep(5)
 
 except KeyboardInterrupt:
-    print('Interrompido manualmente')
+    print('Interrompido manualmente') 
